@@ -4,11 +4,12 @@
 const name = 'Mila'
 const age = 30
 let c = null;
-let d 
+let d = (5>7)
+let e
 
 
 console.log(typeof name)
 console.log(typeof age)
 console.log(c)
-console.log(d)
-console.log(name === age)
+console.log(typeof d)
+console.log(typeof e)

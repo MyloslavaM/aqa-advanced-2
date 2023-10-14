@@ -1,7 +1,7 @@
 // Числа та булі
 
-let userAge = 7
-let ageOk = userAge >= 18
+const userAge = 7
+let isAdult = userAge >= 18
 
 console.log(userAge)
-console.log(ageOk)
+console.log(isAdult)
