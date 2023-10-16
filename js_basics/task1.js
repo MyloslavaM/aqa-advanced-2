@@ -4,7 +4,7 @@
 const name = 'Mila'
 const age = 30
 let c = null;
-let d = (5>7)
+let d = true
 let e
 
 
