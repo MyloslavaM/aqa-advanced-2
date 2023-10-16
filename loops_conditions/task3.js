@@ -2,6 +2,6 @@
 const number = 7
 
 for (let i = 1; i < 10; i++){
-    let summma = number * i
-   console.log(`${number} * ${i} = ${summma}`) 
+    let multipliedNumber = number * i
+   console.log(`${number} * ${i} = ${multipliedNumber}`) 
 }
