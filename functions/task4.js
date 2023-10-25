@@ -4,6 +4,8 @@ function divide(numerator, denominator){
     try {
         if( typeof numerator !== 'number' || typeof denominator !== 'number' ||result <= 0) { 
             throw new Error("something went wrong")
+         } else{
+            
          }
 
     }catch (e){
