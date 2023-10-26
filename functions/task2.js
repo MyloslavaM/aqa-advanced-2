@@ -1,16 +1,6 @@
 //Засоби валідації
-function AgeVerification (age){
-
-     if(age >= 18){
-        const isAdult = true
-        console.log('The user is not adult')
-     } else {
-        const isNotAdult = false
-        console.log('The user is adult')
-     }
-
-
-
+const isAdult = function(age){
+   return age >=18
 }
-AgeVerification(25)
-AgeVerification(15)
+console.log(isAdult(2))
+console.log(isAdult(25))
