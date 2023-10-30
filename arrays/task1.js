@@ -1,9 +1,17 @@
 //Відстеження кількості позитивних, негативних та нульових чисел
 const numbers = [2, -5, 0, 7, -3, 0, 10, -8]
-const positiveCount = numbers.filter((number) => number >= 1)
-const negativeCount = numbers.filter((number) => number <= -1)
-const zeroCount = numbers.filter((number) => number === 0)
-
-console.log(positiveCount.length)
-console.log(negativeCount.length)
-console.log(zeroCount.length)
+let positiveCount = 0
+let negativeCount = 0
+let zeroCount = 0
+for(const number of numbers){
+    if (number > 0 ){
+        positiveCount++
+    }else if (number < 0){
+        negativeCount++
+    } else {
+     zeroCount++
+    }
+}
+console.log(positiveCount)
+console.log(negativeCount)
+console.log(zeroCount)
