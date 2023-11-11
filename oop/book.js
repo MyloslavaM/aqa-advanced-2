@@ -42,7 +42,8 @@ export default class Book {
         if(bookList.length === 0){
             return null
         }
-        bookList.sort((a, b) => a._year - b._year)
+        bookList.sort((a, b) => a.year - b.year)
         return bookList[0]
     }
 }
+

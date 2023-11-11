@@ -14,13 +14,13 @@ export default class EBook extends Book {
             console.error('Invalid format input');
         }
     }
-    static findOldestBook(bookList){
-        if(bookList.length === 0){
-            return null
-        }
-        bookList.sort((a, b) => a._year - b._year)
-        return bookList[0]
+    static fromBook(book, fileFormat) {
+        return new EBook(book.name, book.author, book.year, book.fileFormat)
     }
+
 }
 
 
+//Створіть статичний метод для EBook 
+//який буде приймати як аргументи екземпляр класу Book 
+//і формат файлу як рядок та повертати екземпляр класу EBook
