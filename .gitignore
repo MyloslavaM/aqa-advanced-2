@@ -130,4 +130,5 @@ dist
 .pnp.*
 
 js_basics/node_modules/
-paskage.js
+
+node_modules/

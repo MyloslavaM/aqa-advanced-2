@@ -1,15 +1,14 @@
 //1. Оголошення змінних для примітивних типів.
 // import chalk from "chalk"
 
-const name = 'Mila'
-const age = 30
+const name = 'Mila';
+const age = 30;
 let c = null;
-let d = true
-let e
+let d = true;
+let e;
 
-
-console.log(typeof name)
-console.log(typeof age)
-console.log(c)
-console.log(typeof d)
-console.log(typeof e)
+console.log(typeof name);
+console.log(typeof age);
+console.log(c);
+console.log(typeof d);
+console.log(typeof e);
