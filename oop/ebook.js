@@ -15,7 +15,7 @@ export default class EBook extends Book {
         }
     }
     static fromBook(book, fileFormat) {
-        return new EBook(book.name, book.author, book.year, book.fileFormat)
+        return new EBook(book.name, book.author, book.year, fileFormat)
     }
 
 }
