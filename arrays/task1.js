@@ -15,3 +15,4 @@ for (const number of numbers) {
 console.log(positiveCount);
 console.log(negativeCount);
 console.log(zeroCount);
+console.log('Hello from CI');
